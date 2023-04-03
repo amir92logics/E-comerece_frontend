@@ -23,9 +23,9 @@ const Dashboard = () => {
   }, [isError]);
 
   const onLogOut = () => {
-    localStorage.removeItem('token');
+    // localStorage.removeItem('token');
 
-    history.push('/login');
+    history.push('/products');
   };
 
   return (
